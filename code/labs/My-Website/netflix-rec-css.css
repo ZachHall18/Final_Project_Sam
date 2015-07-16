@@ -1,0 +1,44 @@
+#header{
+  font-size: 50px;
+  font: 
+}
+
+#header{
+  font-family: 'Lobster', cursive;
+}
+
+#layer{
+ padding: 20px;
+ background: rgba(255,0,0,.65);
+  position: relative; left: 20px;
+  z-index: -1;
+  width: 800px;
+}
+
+.netflix{
+  font-size: 30px;
+}
+
+#barney{
+  height: 189px;
+  width: 300px;
+}
+
+#OJ{
+  height: 189px;
+  width: 300px;
+}
+#Homeicon{
+ height: 200px;
+  width: 200px;
+}
+
+#background{
+z-index: -999;
+min-height: 100%;
+width: 100%;
+height: 100%;
+position: fixed;
+top: 0;
+left: 0;
+}

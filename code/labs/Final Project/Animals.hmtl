@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <title>Carousel Template &middot; Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="http://simonewebdesign.it">
+
+    <!-- Le styles -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons 
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="assets/ico/favicon.png">
+    -->
+  </head>
+
+  <body>
+
+<div id="sidebar">
+Zachs<br>
+Final<br>
+Project<br>
+</div>
+
+  <img src="empty.jpg" class="background" />
+    <!-- NAVBAR
+    ================================================== -->
+    <div class="navbar-wrapper">
+      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+      <div class="container">
+
+        <div class="navbar navbar-inverse">
+          <div class="navbar-inner">
+            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="brand" id="name" href="#">Oceanography</a>
+            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+            <div class="nav-collapse collapse">
+              <ul class="nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#animals">Animals</a></li>
+                <li><a href="Activity.html">Activities</a></li>
+                <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sources<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="http://oceanservice.noaa.gov/facts/oceanographer.html">NOAA</a></li>
+                    <li><a href="https://images.google.com/">Google Images</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div><!-- /.navbar-inner -->
+        </div><!-- /.navbar -->
+
+      </div> <!-- /.container -->
+    </div><!-- /.navbar-wrapper -->
+
+    <div class="layer">
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="item active">
+          <img class="round"class="img-responsive center-block" src="lemonshark.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1></h1>
+              <p class="lead"></p>
+              <a class="" href="#"></a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="round"src="reef.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1></h1>
+              <p class="lead"></p>
+              <a class="" href="#"></a>
+            </div>
+          </div>
+        </div>
+          <div class="item">
+          <img class="round" src="lionfish2.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1></h1>
+              <p class="lead"></p>
+              <a class="" href="#"></a>
+            </div>
+          </div>
+        </div>
+          <div class="item">
+          <img class="round" src="cuda.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1></h1>
+              <p class="lead"></p>
+              <a class="" href="#"></a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="round" src="reefplant.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1></h1>
+              <p class="lead"></p>
+              <a class="" href="#"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- /.carousel -->
+
+      <h1 class="study">The study of the ocean</h1>
+      <p class="study" id="studyp">Oceanography covers a wide range of topics, including marine life and ecosystems, ocean circulation, plate tectonics and the geology of the sea floor, and the chemical and physical properties of the ocean.
+<br><br>
+Just as there are many specialties within the medical field, there are many disciplines within oceanography.
+<br><br>
+Biological oceanographers and marine biologists study plants and animals in the marine environment. They are interested in the numbers of marine organisms and how these organisms develop, relate to one another, adapt to their environment, and interact with it. To accomplish their work, they may use field observations, computer models, or laboratory and field experiments.</p>
+      <br>
+
+      <a href="http://oceanservice.noaa.gov/facts/oceanographer.html">
+  <img id="noa" src="noaa.png" alt="HTML tutorial" >
+</a>
+      
+      <br><br>
+    </div>
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script>
+      !function ($) {
+        $(function(){
+          // carousel demo
+          $('#myCarousel').carousel()
+
+        })
+      }(window.jQuery)
+    </script>
+  </body>
+</html>
